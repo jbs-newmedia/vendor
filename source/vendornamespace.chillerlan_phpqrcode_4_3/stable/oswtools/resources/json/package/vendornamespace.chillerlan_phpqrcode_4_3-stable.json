@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Namespace:chillerlan|php-qrcode:4.3.*",
+    "author": "chillerlan",
+    "copyright": "chillerlan",
+    "year": 2019,
+    "link": "https:\/\/github.com\/chillerlan\/php-qrcode",
+    "license": "Apache-2.0, MIT",
+    "package": "vendornamespace.chillerlan_phpqrcode_4_3",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  }
+}
