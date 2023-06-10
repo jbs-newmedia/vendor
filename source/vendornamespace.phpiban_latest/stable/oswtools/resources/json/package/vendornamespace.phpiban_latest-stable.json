@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Namespace:php-iban:latest",
+    "author": "globalcitizen",
+    "copyright": "globalcitizen",
+    "year": 2009,
+    "link": "https:\/\/github.com\/globalcitizen\/php-iban",
+    "license": "LGPL-3.0",
+    "package": "vendornamespace.phpiban_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendornamespace.phpiban_4_2",
+      "release": "stable"
+    }
+  ]
+}
