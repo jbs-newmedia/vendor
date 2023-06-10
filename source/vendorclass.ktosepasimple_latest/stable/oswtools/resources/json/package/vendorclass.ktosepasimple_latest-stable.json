@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Class:KtoSepaSimple:latest",
+    "author": "Dipl.-Ing. Matthias Hanft",
+    "copyright": "Dipl.-Ing. Matthias Hanft",
+    "year": 2022,
+    "link": "https:\/\/www.kontopruef.de",
+    "license": "-",
+    "package": "vendorclass.ktosepasimple_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorclass.ktosepasimple_1",
+      "release": "stable"
+    }
+  ]
+}
