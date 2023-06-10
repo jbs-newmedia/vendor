@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Namespace:chillerlan|php-settings-container:latest",
+    "author": "chillerlan",
+    "copyright": "chillerlan",
+    "year": 2019,
+    "link": "https:\/\/github.com\/chillerlan\/php-settings-container",
+    "license": "MIT",
+    "package": "vendornamespace.chillerlan_phpsettingscontainer_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendornamespace.chillerlan_phpsettingscontainer_3_0",
+      "release": "stable"
+    }
+  ]
+}
