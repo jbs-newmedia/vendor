@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Lib:jQuery:latest",
+    "author": "jQuery Team",
+    "copyright": "jQuery Team",
+    "year": 2006,
+    "link": "https:\/\/jquery.com",
+    "license": "MIT",
+    "package": "vendorlib.jquery_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.jquery_3_7",
+      "release": "stable"
+    }
+  ]
+}

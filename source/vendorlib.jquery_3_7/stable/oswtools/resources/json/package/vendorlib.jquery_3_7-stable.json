@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Lib:jQuery:3_7",
+    "author": "jQuery Team",
+    "copyright": "jQuery Team",
+    "year": 2006,
+    "link": "https:\/\/jquery.com",
+    "license": "MIT",
+    "package": "vendorlib.jquery_3_7",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  }
+}
