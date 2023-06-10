@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Namespace:SCSSPHP:latest",
+    "author": "Leaf Corcoran",
+    "copyright": "Leaf Corcoran",
+    "year": 2012,
+    "link": "http:\/\/scssphp.github.io\/scssphp",
+    "license": "MIT",
+    "package": "vendornamespace.scssphp_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendornamespace.scssphp_1_11",
+      "release": "stable"
+    }
+  ]
+}
