@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Lib:FontAwesome:6_4",
+    "author": "Fonticons, Inc.",
+    "copyright": "Fonticons, Inc.",
+    "year": 2012,
+    "link": "https:\/\/fontawesome.com",
+    "license": "Font Awesome Free License",
+    "package": "vendorlib.fontawesome_6_4",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  }
+}

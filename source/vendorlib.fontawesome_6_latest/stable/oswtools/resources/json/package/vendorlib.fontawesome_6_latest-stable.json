@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Lib:FontAwesome:6_latest",
+    "author": "Fonticons, Inc.",
+    "copyright": "Fonticons, Inc.",
+    "year": 2012,
+    "link": "https:\/\/fontawesome.com",
+    "license": "Font Awesome Free License",
+    "package": "vendorlib.fontawesome_6_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.fontawesome_6_4",
+      "release": "stable"
+    }
+  ]
+}
