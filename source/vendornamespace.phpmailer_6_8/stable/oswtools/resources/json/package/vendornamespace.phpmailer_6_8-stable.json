@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Namespace:PHPMailer:6.8.*",
+    "author": "Marcus Bointon, Jim Jagielski, Andy Prevost, Brent R. Matzelle",
+    "copyright": "PHPMailer organisation",
+    "year": 2004,
+    "link": "https:\/\/github.com\/PHPMailer",
+    "license": "LGPL-2.1",
+    "package": "vendornamespace.phpmailer_6_8",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  }
+}
