@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "Class:PHPICO:1.0.*",
+    "author": "Chris Jean",
+    "copyright": "Chris Jean",
+    "year": 2016,
+    "link": "https:\/\/github.com\/chrisbliss18\/php-ico",
+    "license": "GNU GPL v2",
+    "package": "vendorclass.phpico_1_0",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": []
+}
