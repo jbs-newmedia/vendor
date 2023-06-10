@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Namespace:Setasign|FPDI:2.3.*",
+    "author": "Setasign GmbH & Co. KG",
+    "copyright": "Setasign GmbH & Co. KG",
+    "year": 2004,
+    "link": "https:\/\/www.setasign.com",
+    "license": "MIT",
+    "package": "vendornamespace.setasign_fpdi_2_3",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  }
+}

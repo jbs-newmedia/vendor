@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Namespace:Setasign|FPDI:latest",
+    "author": "Setasign GmbH & Co. KG",
+    "copyright": "Setasign GmbH & Co. KG",
+    "year": 2004,
+    "link": "https:\/\/www.setasign.com",
+    "license": "MIT",
+    "package": "vendornamespace.setasign_fpdi_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendornamespace.setasign_fpdi_2_3",
+      "release": "stable"
+    }
+  ]
+}
