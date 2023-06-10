@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Lib:Bootstrap:5_latest",
+    "author": "Bootstrap Authors",
+    "copyright": "Bootstrap Authors",
+    "year": 2011,
+    "link": "https:\/\/github.com\/twbs\/bootstrap",
+    "license": "MIT",
+    "package": "vendorlib.bootstrap_5_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.bootstrap_5_2",
+      "release": "stable"
+    }
+  ]
+}
