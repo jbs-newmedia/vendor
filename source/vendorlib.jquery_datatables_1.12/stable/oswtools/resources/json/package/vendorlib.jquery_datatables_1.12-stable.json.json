@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Lib:jQuery|Datatables:1_12",
+    "author": "SpryMedia Ltd",
+    "copyright": "SpryMedia Ltd",
+    "year": 2008,
+    "link": "https:\/\/www.datatables.net",
+    "license": "MIT",
+    "package": "vendorlib.jquery_datatables_1_12",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  }
+}
