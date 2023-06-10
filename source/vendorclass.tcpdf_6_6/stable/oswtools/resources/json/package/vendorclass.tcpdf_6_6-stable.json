@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Class:TCPDF:6.6.*",
+    "author": "Nicola Asuni",
+    "copyright": "Nicola Asuni - Tecnick.com LTD",
+    "year": 2002,
+    "link": "http:\/\/www.tcpdf.org",
+    "license": "GNU-LGPL v3",
+    "package": "vendorclass.tcpdf_6_6-stable",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  }
+}
