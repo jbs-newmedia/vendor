@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Lib:Bootstrap|CookieAlert:latest",
+    "author": "Wruczek",
+    "copyright": "Wruczek",
+    "year": 2017,
+    "link": "https:\/\/github.com\/Wruczek\/Bootstrap-Cookie-Alert",
+    "license": "MIT",
+    "package": "vendorlib.bootstrap_cookiealert_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.bootstrap_cookiealert_1_2",
+      "release": "stable"
+    }
+  ]
+}
