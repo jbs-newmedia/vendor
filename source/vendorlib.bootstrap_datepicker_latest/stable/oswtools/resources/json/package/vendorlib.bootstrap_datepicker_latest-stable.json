@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Lib:Bootstrap|DatePicker:latest",
+    "author": "UX Solutions",
+    "copyright": "UX Solutions",
+    "year": 2013,
+    "link": "https:\/\/github.com\/uxsolutions\/bootstrap-datepicker",
+    "license": "Apache-2.0",
+    "package": "vendorlib.bootstrap_datepicker_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.bootstrap_datepicker_1_10",
+      "release": "stable"
+    }
+  ]
+}
