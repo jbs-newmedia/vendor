@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Lib:Bootstrap|JBSAdmin:latest",
+    "author": "Juergen Schwind",
+    "copyright": "JBS New Media GmbH",
+    "year": 2022,
+    "link": "https:\/\/jsb-newmedia.de",
+    "license": "MIT",
+    "package": "vendorlib.bootstrap_jbsadmin_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.bootstrap_jbsadmin_5_0",
+      "release": "stable"
+    }
+  ]
+}
