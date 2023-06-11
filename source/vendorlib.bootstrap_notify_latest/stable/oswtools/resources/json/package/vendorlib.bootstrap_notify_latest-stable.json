@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Lib:Bootstrap|Notify:latest",
+    "author": "mouse0270",
+    "copyright": "mouse0270",
+    "year": 2014,
+    "link": "https:\/\/github.com\/mouse0270\/bootstrap-notify",
+    "license": "MIT",
+    "package": "vendorlib.bootstrap_notify_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.bootstrap_notify_3_1",
+      "release": "stable"
+    }
+  ]
+}
