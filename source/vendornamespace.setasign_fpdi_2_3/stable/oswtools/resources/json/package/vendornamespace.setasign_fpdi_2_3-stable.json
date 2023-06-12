@@ -12,5 +12,6 @@
     "group": "core",
     "unique": false,
     "serverlist": "vendor"
-  }
+  },
+  "required": []
 }

@@ -13,11 +13,5 @@
     "unique": false,
     "serverlist": "vendor"
   },
-  "required": [
-    {
-      "serverlist": "vendor",
-      "package": "vendorlib.bootstrap_jbsadmin_5_0",
-      "release": "stable"
-    }
-  ]
+  "required": []
 }

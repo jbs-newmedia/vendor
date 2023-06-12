@@ -12,5 +12,12 @@
     "group": "core",
     "unique": false,
     "serverlist": "vendor"
-  }
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.jslibanimatecss_4_1",
+      "release": "stable"
+    }
+  ]
 }
