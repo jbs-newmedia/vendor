@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Lib:JSLib|AOS:2.3.*",
+    "author": "Michał Sajnóg",
+    "copyright": "Michał Sajnóg",
+    "year": 2015,
+    "link": "https:\/\/github.com\/michalsnik\/aos",
+    "license": "MIT",
+    "package": "vendorlib.jslib_aos_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  }
+}
