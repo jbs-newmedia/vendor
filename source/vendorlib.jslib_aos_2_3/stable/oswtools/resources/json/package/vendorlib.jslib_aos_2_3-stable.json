@@ -6,7 +6,7 @@
     "year": 2015,
     "link": "https:\/\/github.com\/michalsnik\/aos",
     "license": "MIT",
-    "package": "vendorlib.jslib_aos_latest",
+    "package": "vendorlib.jslib_aos_2_3",
     "version": "",
     "release": "stable",
     "group": "core",
