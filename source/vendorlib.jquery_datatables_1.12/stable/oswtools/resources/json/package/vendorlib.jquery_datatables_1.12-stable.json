@@ -1,6 +1,6 @@
 {
   "info": {
-    "name": "Lib:jQuery|Datatables:1_12",
+    "name": "Lib:jQuery|Datatables:1.12.*",
     "author": "SpryMedia Ltd",
     "copyright": "SpryMedia Ltd",
     "year": 2008,
