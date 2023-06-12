@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Lib:Bootstrap|Datatables:latest",
+    "author": "SpryMedia Ltd",
+    "copyright": "SpryMedia Ltd",
+    "year": 2008,
+    "link": "https:\/\/www.datatables.net",
+    "license": "MIT",
+    "package": "vendorlib.bootstrap_datatables_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.bootstrap_datatables_1_12",
+      "release": "stable"
+    }
+  ]
+}
