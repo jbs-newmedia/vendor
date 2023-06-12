@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "Lib:Bootstrap|Summernote:0.8.*",
+    "author": "Summernote Team",
+    "copyright": "Summernote Team",
+    "year": 2013,
+    "link": "https:\/\/github.com\/summernote\/summernote",
+    "license": "MIT",
+    "package": "vendorlib.bootstrap_summernote_0_8",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": []
+}
