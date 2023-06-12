@@ -20,13 +20,13 @@ if (!isset($options['bundle'])) {
 	$options['bundle']=true;
 }
 
-$version=Settings::getStringVar('vendor_lib_jslib_'.$plugin_name.'_version');
+$version=Settings::getStringVar('vendor_lib_jslib_'.$lib_name.'_version');
 
 $dir=strtolower($this->getClassName().DIRECTORY_SEPARATOR.$lib_name);
 $name=$lib_name.DIRECTORY_SEPARATOR.$version.'.resource';
 if (Resource::existsResource($this->getClassName(), $name)!==true) {
 	$files=['js'.DIRECTORY_SEPARATOR.'Chart.bundle.js', 'js'.DIRECTORY_SEPARATOR.'Chart.bundle.min.js', 'js'.DIRECTORY_SEPARATOR.'Chart.js', 'js'.DIRECTORY_SEPARATOR.'Chart.min.js', 'css'.DIRECTORY_SEPARATOR.'Chart.css', 'css'.DIRECTORY_SEPARATOR.'Chart.min.css'];
-	Resource::copyResourcePath('vendor'.DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'jslib'.DIRECTORY_SEPARATOR.$lib_name.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $files);
+	Resource::copyResourcePath('vendor'.DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'jslib'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.$lib_name.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $files);
 	Resource::writeResource($this->getClassName(), $name, time());
 }
 
