@@ -6,7 +6,7 @@
     "year": 2013,
     "link": "https:\/\/github.com\/chartjs\/Chart.js",
     "license": "MIT",
-    "package": "vendorlib.jslib_chartjs_latest",
+    "package": "vendorlib.jslib_chartjs_2_9",
     "version": "",
     "release": "stable",
     "group": "core",

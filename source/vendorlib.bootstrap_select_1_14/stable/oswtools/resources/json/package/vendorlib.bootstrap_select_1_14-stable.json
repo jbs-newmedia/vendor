@@ -6,7 +6,7 @@
     "year": 2013,
     "link": "https:\/\/github.com\/snapappointments\/bootstrap-select",
     "license": "MIT",
-    "package": "vendorlib.bootstrap_select_latest",
+    "package": "vendorlib.bootstrap_select_1_14",
     "version": "",
     "release": "stable",
     "group": "core",

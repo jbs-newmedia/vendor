@@ -6,7 +6,7 @@
     "year": 2003,
     "link": "https:\/\/github.com\/ckeditor\/ckeditor5",
     "license": "GNU GPL, version 2 or later",
-    "package": "vendorlib.jslib_ckeditor_latest",
+    "package": "vendorlib.jslib_ckeditor_35_3",
     "version": "",
     "release": "stable",
     "group": "core",

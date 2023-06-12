@@ -6,7 +6,7 @@
     "year": 2013,
     "link": "https:\/\/github.com\/animate-css\/animate.css",
     "license": "Hippocratic 2.1",
-    "package": "vendorlib.jslib_animatecss_latest",
+    "package": "vendorlib.jslib_animatecss_4_1",
     "version": "",
     "release": "stable",
     "group": "core",
