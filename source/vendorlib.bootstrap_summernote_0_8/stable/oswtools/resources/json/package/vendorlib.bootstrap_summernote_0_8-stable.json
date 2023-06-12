@@ -18,5 +18,6 @@
       "serverlist": "vendor",
       "package": "vendorlib.jquery_summernote_0_8",
       "release": "stable"
-    },
+    }
+  ]
 }
