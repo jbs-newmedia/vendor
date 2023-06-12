@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Lib:JSLib|Chart.js:latest",
+    "author": "Chart.js Team",
+    "copyright": "Chart.js Team",
+    "year": 2013,
+    "link": "https:\/\/github.com\/chartjs\/Chart.js",
+    "license": "MIT",
+    "package": "vendorlib.jslib_chartjs_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.jslib_chartjs_2_9",
+      "release": "stable"
+    }
+  ]
+}
