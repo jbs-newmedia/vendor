@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Lib:jQuery|Summernote:latest",
+    "author": "Summernote Team",
+    "copyright": "Summernote Team",
+    "year": 2013,
+    "link": "https:\/\/github.com\/summernote\/summernote",
+    "license": "MIT",
+    "package": "vendorlib.jquery_summernote_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.jquery_summernote_0_8",
+      "release": "stable"
+    }
+  ]
+}
