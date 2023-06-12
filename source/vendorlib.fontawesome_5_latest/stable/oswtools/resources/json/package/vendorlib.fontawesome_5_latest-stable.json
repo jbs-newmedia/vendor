@@ -16,7 +16,7 @@
   "required": [
     {
       "serverlist": "vendor",
-      "package": "vendorlib.fontawesome_5_15",
+      "package": "vendorlib.fontawesome_5_14",
       "release": "stable"
     }
   ]
