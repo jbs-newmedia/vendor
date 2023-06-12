@@ -16,7 +16,7 @@
   "required": [
     {
       "serverlist": "vendor",
-      "package": "vendorlib.jslibanimatecss_4_1",
+      "package": "vendorlib.jslib_animatecss_4_1",
       "release": "stable"
     }
   ]
