@@ -6,7 +6,7 @@
     "year": 2012,
     "link": "http:\/\/scssphp.github.io\/scssphp",
     "license": "MIT",
-    "package": "vendornamespace.scssphp_latest",
+    "package": "vendornamespace.scssphp_1_11",
     "version": "",
     "release": "stable",
     "group": "core",
