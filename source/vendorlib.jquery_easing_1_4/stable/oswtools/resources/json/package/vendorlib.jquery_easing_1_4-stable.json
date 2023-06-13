@@ -1,0 +1,17 @@
+{
+  "info": {
+    "name": "Lib:jQuery|Easing:1.4.*",
+    "author": "gdsmith",
+    "copyright": "gdsmith",
+    "year": 2011,
+    "link": "https:\/\/github.com\/gdsmith\/jquery.easing",
+    "license": "BSD",
+    "package": "vendorlib.jquery_easing_1_4",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": []
+}

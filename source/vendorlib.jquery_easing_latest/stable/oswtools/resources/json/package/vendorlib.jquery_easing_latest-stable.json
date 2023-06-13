@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Lib:jQuery|Easing:latest",
+    "author": "gdsmith",
+    "copyright": "gdsmith",
+    "year": 2011,
+    "link": "https:\/\/github.com\/gdsmith\/jquery.easing",
+    "license": "BSD",
+    "package": "vendorlib.jquery_easing_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.jquery_easing_1_4",
+      "release": "stable"
+    }
+  ]
+}
