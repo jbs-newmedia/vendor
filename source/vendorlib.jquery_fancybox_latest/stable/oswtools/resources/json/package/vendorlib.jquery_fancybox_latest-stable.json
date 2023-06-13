@@ -1,0 +1,23 @@
+{
+  "info": {
+    "name": "Lib:jQuery|Fancybox:latest",
+    "author": "Jānis Skarnelis",
+    "copyright": "Jānis Skarnelis",
+    "year": 2008,
+    "link": "https:\/\/github.com\/fancyapps\/fancybox",
+    "license": "GPLv3s",
+    "package": "vendorlib.jquery_fancybox_latest",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  },
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.jquery_fancybox_3_5",
+      "release": "stable"
+    }
+  ]
+}
