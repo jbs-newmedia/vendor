@@ -1,0 +1,8 @@
+{
+  "configure": {
+    "middle": {
+      "vendor_lib_bootstrap_version": "5.3.0",
+      "vendor_lib_bootstrap_versions": "5.3.0"
+    }
+  }
+}
