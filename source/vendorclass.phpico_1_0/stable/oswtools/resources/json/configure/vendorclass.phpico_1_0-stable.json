@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_class_php_ico_version": "1.0.4",
+      "vendor_class_php_ico_versions": "1.0.4"
+    }
+  }
+}

@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_lib_bootstrap_notify_version": "1.14.0-beta3-oswframe-rc1",
+      "vendor_lib_bootstrap_notify_versions": "1.14.0-beta3-oswframe-rc1"
+    }
+  }
+}

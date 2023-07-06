@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_namespace_chillerlan_settings_version": "3.0.0",
+      "vendor_namespace_chillerlan_settings_versions": "3.0.0"
+    }
+  }
+}

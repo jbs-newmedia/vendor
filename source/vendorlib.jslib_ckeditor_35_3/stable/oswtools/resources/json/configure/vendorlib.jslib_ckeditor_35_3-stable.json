@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_lib_jslib_ckeditor_version": "35.3.1",
+      "vendor_lib_jslib_ckeditor_versions": "35.3.1"
+    }
+  }
+}

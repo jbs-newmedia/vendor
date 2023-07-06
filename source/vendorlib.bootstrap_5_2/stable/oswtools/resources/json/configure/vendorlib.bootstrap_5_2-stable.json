@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_lib_bootstrap_version": "5.2.3",
+      "vendor_lib_bootstrap_versions": "5.2.3"
+    }
+  }
+}

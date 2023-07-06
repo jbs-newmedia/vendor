@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_class_tcpdf_version": "6.6.2",
+      "vendor_class_tcpdf_versions": "6.6.2"
+    }
+  }
+}

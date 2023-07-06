@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_namespace_php_iban_version": "4.2.1",
+      "vendor_namespace_php_iban_versions": "4.2.1"
+    }
+  }
+}

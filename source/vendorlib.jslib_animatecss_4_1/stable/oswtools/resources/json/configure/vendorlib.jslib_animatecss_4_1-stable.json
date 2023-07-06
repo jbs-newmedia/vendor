@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_lib_jslib_animatecss_version": "4.1.1",
+      "vendor_lib_jslib_animatecss_versions": "4.1.1"
+    }
+  }
+}

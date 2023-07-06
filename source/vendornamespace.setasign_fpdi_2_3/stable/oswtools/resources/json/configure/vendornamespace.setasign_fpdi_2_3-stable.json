@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_namespace_setasign_fpdi_version": "2.3.7",
+      "vendor_namespace_setasign_fpdi_versions": "2.3.7"
+    }
+  }
+}

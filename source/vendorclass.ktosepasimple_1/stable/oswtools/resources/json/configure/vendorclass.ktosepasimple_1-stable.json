@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_class_ktosepasimple_version": "1.1",
+      "vendor_class_ktosepasimple_versions": "1.1"
+    }
+  }
+}

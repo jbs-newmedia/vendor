@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_lib_bootstrap_notify_version": "3.1.5",
+      "vendor_lib_bootstrap_notify_versions": "3.1.5"
+    }
+  }
+}

@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_namespace_chillerlan_qrcode_version": "4.3.4",
+      "vendor_namespace_chillerlan_qrcode_versions": "4.3.4"
+    }
+  }
+}

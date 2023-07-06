@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_lib_fontawesome_version": "5.14.4",
+      "vendor_lib_fontawesome_version": "5.14.4"
+    }
+  }
+}

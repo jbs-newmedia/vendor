@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_lib_bootstrap_datepicker_version": "1.10.0",
+      "vendor_lib_bootstrap_datepicker_versions": "1.10.0"
+    }
+  }
+}

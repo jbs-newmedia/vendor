@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_lib_jquery_fancybox_version": "3.5.7",
+      "vendor_lib_jquery_fancybox_versions": "3.5.7"
+    }
+  }
+}

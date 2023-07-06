@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_namespace_phpmailer_phpmailer_version": "6.8.0",
+      "vendor_namespace_phpmailer_phpmailer_versions": "6.8.0"
+    }
+  }
+}

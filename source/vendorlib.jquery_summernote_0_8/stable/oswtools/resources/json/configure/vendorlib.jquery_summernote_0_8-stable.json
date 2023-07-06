@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_lib_jquery_summernote_version": "0.8.18",
+      "vendor_lib_jquery_summernote_versions": "0.8.18"
+    }
+  }
+}

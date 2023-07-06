@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_namespace_scssphp_scssphp_version": "1.11.0",
+      "vendor_namespace_scssphp_scssphp_versions": "1.11.0"
+    }
+  }
+}
