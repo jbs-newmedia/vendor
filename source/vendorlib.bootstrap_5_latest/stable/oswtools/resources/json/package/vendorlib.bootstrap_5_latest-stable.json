@@ -16,7 +16,7 @@
   "required": [
     {
       "serverlist": "vendor",
-      "package": "vendorlib.bootstrap_5_2",
+      "package": "vendorlib.bootstrap_5_3",
       "release": "stable"
     }
   ]
