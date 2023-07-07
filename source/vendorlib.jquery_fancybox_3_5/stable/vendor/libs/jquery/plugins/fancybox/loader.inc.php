@@ -18,16 +18,16 @@ if (!isset($options['min'])) {
 
 $version=Settings::getStringVar('vendor_lib_jquery_'.$plugin_name.'_version');
 
-$dir=strtolower($this->getClassName() . DIRECTORY_SEPARATOR .$plugin_name);
+$dir=strtolower($this->getClassName().DIRECTORY_SEPARATOR.$plugin_name);
 
 $name=$plugin_name.DIRECTORY_SEPARATOR.$version.'.resource';
 if (Resource::existsResource('jquery', $name)!==true) {
 	$files=['js'.DIRECTORY_SEPARATOR.'jquery.fancybox.js', 'js'.DIRECTORY_SEPARATOR.'jquery.fancybox.min.js', 'css'.DIRECTORY_SEPARATOR.'jquery.fancybox.css', 'css'.DIRECTORY_SEPARATOR.'jquery.fancybox.min.css'];
-	Resource::copyResourcePath('frame'.DIRECTORY_SEPARATOR.'resources'.DIRECTORY_SEPARATOR.'jquery'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.$plugin_name.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $files);
+	Resource::copyResourcePath('vendor'.DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'jquery'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.$plugin_name.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $files);
 	Resource::writeResource('jquery', $name, time());
 }
 
-$path= loader . inc . phpResource::getRelDir() . $dir .DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR;
+$path=Resource::getRelDir().$dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR;
 
 if ($options['min']===true) {
 	$jsfiles=[$path.'js'.DIRECTORY_SEPARATOR.'jquery.fancybox.min.js'];
