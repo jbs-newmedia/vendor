@@ -18,7 +18,7 @@ if (!isset($options['min'])) {
 
 $version=Settings::getStringVar('vendor_lib_jquery_'.$plugin_name.'_version');
 
-$dir=strtolower($this->getClassName().DIRECTORY_SEPARATOR.$plugin_name);
+$dir=strtolower('jquery'.DIRECTORY_SEPARATOR.$plugin_name);
 
 $name=$plugin_name.DIRECTORY_SEPARATOR.$version.'.resource';
 if (Resource::existsResource('jquery', $name)!==true) {

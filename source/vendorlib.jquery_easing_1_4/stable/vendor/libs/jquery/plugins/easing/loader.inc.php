@@ -17,13 +17,13 @@ if (!isset($options['min'])) {
 }
 
 $version=Settings::getStringVar('vendor_lib_jquery_'.$plugin_name.'_version');
-$dir=strtolower($this->getClassName().DIRECTORY_SEPARATOR.$plugin_name);
+$dir=strtolower('jquery'.DIRECTORY_SEPARATOR.$plugin_name);
 
 $name=$plugin_name.DIRECTORY_SEPARATOR.$version.'.resource';
-if (Resource::existsResource($this->getClassName(), $name)!==true) {
+if (Resource::existsResource('jquery', $name)!==true) {
 	$files=['js'.DIRECTORY_SEPARATOR.'jquery.easing.compatibility.js', 'js'.DIRECTORY_SEPARATOR.'jquery.easing.js', 'js'.DIRECTORY_SEPARATOR.'jquery.easing.min.js',];
-	Resource::copyResourcePath('vendor'.DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'jquery3'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.$plugin_name.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $files);
-	Resource::writeResource($this->getClassName(), $name, time());
+	Resource::copyResourcePath('vendor'.DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'jquery'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.$plugin_name.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $files);
+	Resource::writeResource('jquery', $name, time());
 }
 
 $path=Resource::getRelDir().$dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR;
