@@ -1,1 +1,8 @@
-[]
+{
+  "configure": {
+    "middle": {
+      "vendor_lib_jquery_easing_version": "1.4.2",
+      "vendor_lib_jquery_easing_versions": "1.4.2"
+    }
+  }
+}
