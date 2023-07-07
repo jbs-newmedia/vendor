@@ -1,17 +1,23 @@
 {
   "info": {
-    "name": "Lib:JSLib|CKEditor:35.3.*",
+    "name": "Lib:JSLib|CKEditor5:latest",
     "author": "CKSource Holding sp. z o.o.",
     "copyright": "CKSource Holding sp. z o.o.",
     "year": 2003,
     "link": "https:\/\/github.com\/ckeditor\/ckeditor5",
     "license": "GNU GPL, version 2 or later",
-    "package": "vendorlib.jslib_ckeditor_35_3",
+    "package": "vendorlib.jslib_ckeditor5_latest",
     "version": "",
     "release": "stable",
     "group": "core",
     "unique": false,
     "serverlist": "vendor"
   },
-  "required": []
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.jslib_ckeditor5_35_3",
+      "release": "stable"
+    }
+  ]
 }
