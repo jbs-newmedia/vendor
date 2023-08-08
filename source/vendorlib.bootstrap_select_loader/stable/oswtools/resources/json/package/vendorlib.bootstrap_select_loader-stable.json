@@ -1,0 +1,16 @@
+{
+  "info": {
+    "name": "Lib:Bootstrap|Select:Loader",
+    "author": "Juergen Schwind",
+    "copyright": "JBS New Media GmbH",
+    "year": 2023,
+    "link": "https:\/\/oswframe.com",
+    "license": "MIT License",
+    "package": "vendorlib.bootstrap_select_loader",
+    "version": "",
+    "release": "stable",
+    "group": "core",
+    "unique": false,
+    "serverlist": "vendor"
+  }
+}
