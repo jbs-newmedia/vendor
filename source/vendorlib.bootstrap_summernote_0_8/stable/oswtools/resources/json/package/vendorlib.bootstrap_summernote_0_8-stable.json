@@ -16,6 +16,11 @@
   "required": [
     {
       "serverlist": "vendor",
+      "package": "vendorlib.bootstrap_summernote_loader",
+      "release": "stable"
+    },
+    {
+      "serverlist": "vendor",
       "package": "vendorlib.jquery_summernote_0_8",
       "release": "stable"
     }
