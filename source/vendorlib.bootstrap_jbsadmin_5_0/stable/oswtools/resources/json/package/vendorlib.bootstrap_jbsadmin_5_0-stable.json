@@ -13,5 +13,11 @@
     "unique": false,
     "serverlist": "vendor"
   },
-  "required": []
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.bootstrap_jbsadmin_loader",
+      "release": "stable"
+    }
+  ]
 }
