@@ -13,5 +13,11 @@
     "unique": false,
     "serverlist": "vendor"
   },
-  "required": []
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.jslib_ckeditor5_loader",
+      "release": "stable"
+    }
+  ]
 }
