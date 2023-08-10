@@ -13,5 +13,11 @@
     "unique": false,
     "serverlist": "vendor"
   },
-  "required": []
+  "required": [
+    {
+      "serverlist": "vendor",
+      "package": "vendorlib.jquery_summernote_loader",
+      "release": "stable"
+    }
+  ]
 }
