@@ -16,7 +16,7 @@
   "required": [
     {
       "serverlist": "vendor",
-      "package": "vendorlib.jquery_datatables_loader",
+      "package": "vendorlib.bootstrap_datatables_loader",
       "release": "stable"
     }
   ]
