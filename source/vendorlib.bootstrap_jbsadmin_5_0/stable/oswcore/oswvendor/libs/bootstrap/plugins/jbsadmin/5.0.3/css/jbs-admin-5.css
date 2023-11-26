@@ -2,7 +2,7 @@
 .jbsadmin-body-modal {
     display: flex;
     flex-wrap: nowrap;
-    height: -webkit-fill-available;
+    height: 100vh;
     overflow-x: auto !important;
     padding-right: 0px !important;
 }

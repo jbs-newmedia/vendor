@@ -19,7 +19,7 @@ $dir=strtolower('bootstrap'.DIRECTORY_SEPARATOR.$plugin_name);
 $name=$plugin_name.DIRECTORY_SEPARATOR.$version.'.resource';
 if (Resource::existsResource('bootstrap', $name)!==true) {
 	$files=['js'.DIRECTORY_SEPARATOR.'jbs-admin-5.js', 'css'.DIRECTORY_SEPARATOR.'jbs-admin-5.css', 'css'.DIRECTORY_SEPARATOR.'nunito.css', 'font'.DIRECTORY_SEPARATOR.'nunito'.DIRECTORY_SEPARATOR.'nunito-v16-latin-regular.eot', 'font'.DIRECTORY_SEPARATOR.'nunito'.DIRECTORY_SEPARATOR.'nunito-v16-latin-regular.svg', 'font'.DIRECTORY_SEPARATOR.'nunito'.DIRECTORY_SEPARATOR.'nunito-v16-latin-regular.ttf', 'font'.DIRECTORY_SEPARATOR.'nunito'.DIRECTORY_SEPARATOR.'nunito-v16-latin-regular.woff', 'font'.DIRECTORY_SEPARATOR.'nunito'.DIRECTORY_SEPARATOR.'nunito-v16-latin-regular.woff2'];
-	Resource::copyResourcePath('oswvendor'.DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'bootstrap'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.$plugin_name.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $files);
+	Resource::copyResourcePath('oswcore'.DIRECTORY_SEPARATOR.'oswvendor'.DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'bootstrap'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.$plugin_name.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $files);
 	$file=Resource::getRelDir().$dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR.'css'.DIRECTORY_SEPARATOR.'nunito.css';
 	$content=file_get_contents($file);
 	$content=str_replace('$osw_source_path$', DIRECTORY_SEPARATOR.Resource::getRelDir().$dir.DIRECTORY_SEPARATOR.$version, $content);

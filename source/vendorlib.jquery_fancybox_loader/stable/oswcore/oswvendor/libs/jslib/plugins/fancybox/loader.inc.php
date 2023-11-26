@@ -23,7 +23,7 @@ $dir=strtolower('jquery'.DIRECTORY_SEPARATOR.$plugin_name);
 $name=$plugin_name.DIRECTORY_SEPARATOR.$version.'.resource';
 if (Resource::existsResource('jquery', $name)!==true) {
 	$files=['js'.DIRECTORY_SEPARATOR.'jquery.fancybox.js', 'js'.DIRECTORY_SEPARATOR.'jquery.fancybox.min.js', 'css'.DIRECTORY_SEPARATOR.'jquery.fancybox.css', 'css'.DIRECTORY_SEPARATOR.'jquery.fancybox.min.css'];
-	Resource::copyResourcePath('oswvendor'.DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'jquery'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.$plugin_name.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $files);
+	Resource::copyResourcePath('oswcore'.DIRECTORY_SEPARATOR.'oswvendor'.DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'jquery'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.$plugin_name.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $files);
 	Resource::writeResource('jquery', $name, time());
 }
 

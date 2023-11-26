@@ -22,7 +22,7 @@ $dir=strtolower('bootstrap'.DIRECTORY_SEPARATOR.$plugin_name);
 $name=$plugin_name.DIRECTORY_SEPARATOR.$version.'.resource';
 if (Resource::existsResource('bootstrap', $name)!==true) {
 	$files=['js'.DIRECTORY_SEPARATOR.'jquery.dataTables.js', 'js'.DIRECTORY_SEPARATOR.'dataTables.bootstrap5.js', 'css'.DIRECTORY_SEPARATOR.'dataTables.bootstrap5.css', 'js'.DIRECTORY_SEPARATOR.'jquery.dataTables.min.js', 'js'.DIRECTORY_SEPARATOR.'dataTables.bootstrap5.min.js', 'css'.DIRECTORY_SEPARATOR.'dataTables.bootstrap5.min.css'];
-	Resource::copyResourcePath('oswvendor'.DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'jquery'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.$plugin_name.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $files);
+	Resource::copyResourcePath('oswcore'.DIRECTORY_SEPARATOR.'oswvendor'.DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'jquery'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.$plugin_name.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $files);
 	Resource::writeResource('bootstrap', $name, time());
 }
 

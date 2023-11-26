@@ -26,7 +26,7 @@ $dir=strtolower($this->getClassName().DIRECTORY_SEPARATOR.$lib_name);
 $name=$lib_name.DIRECTORY_SEPARATOR.$version.'.resource';
 if (Resource::existsResource($this->getClassName(), $name)!==true) {
 	$files=['js'.DIRECTORY_SEPARATOR.'Chart.bundle.js', 'js'.DIRECTORY_SEPARATOR.'Chart.bundle.min.js', 'js'.DIRECTORY_SEPARATOR.'Chart.js', 'js'.DIRECTORY_SEPARATOR.'Chart.min.js', 'css'.DIRECTORY_SEPARATOR.'Chart.css', 'css'.DIRECTORY_SEPARATOR.'Chart.min.css'];
-	Resource::copyResourcePath('oswvendor'.DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'jslib'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.$lib_name.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $files);
+	Resource::copyResourcePath('oswcore'.DIRECTORY_SEPARATOR.'oswvendor'.DIRECTORY_SEPARATOR.'libs'.DIRECTORY_SEPARATOR.'jslib'.DIRECTORY_SEPARATOR.'plugins'.DIRECTORY_SEPARATOR.$lib_name.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $dir.DIRECTORY_SEPARATOR.$version.DIRECTORY_SEPARATOR, $files);
 	Resource::writeResource($this->getClassName(), $name, time());
 }
 
